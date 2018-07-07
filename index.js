@@ -1,16 +1,13 @@
 function scuberGreetingForFeet(feet){
-  switch{
-    case feet <= 400:
-      'This one is on me!'
-      break;
-    case feet > 2000:
-      'I will gladly take your thirty bucks.'
-      break;
-    case feet > 2500:
-      'No can do.'
-      break;
+    if (feet <= 400) {
+      return 'This one is on me!';
+    } else if (1999 < feet && feet < 2500) {
+      return "I will gladly take your thirty bucks.";
+    } else {
+      return "No can do.";
+    }
   }
-}
+
 
 function ternaryCheckCity(city){
   city === 'NYC'? 'Ok, sounds good.' : 'No go.'
