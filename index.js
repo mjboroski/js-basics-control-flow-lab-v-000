@@ -1,4 +1,4 @@
-function scuberGreetingForFeet(feet){
+scuberGreetingForFeet(feet) =
   switch{
     case feet <= 400:
       'This one is on me!'
@@ -10,6 +10,6 @@ function scuberGreetingForFeet(feet){
       'No can do.'
       break;
   }
-}
+
 
 ternaryCheckCity(city) = city === 'NYC'? 'Ok, sounds good.' : 'No go.'
